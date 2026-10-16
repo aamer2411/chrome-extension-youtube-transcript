@@ -1,0 +1,32 @@
+/* Small square download button, same look as the Teams Downloader one */
+#ytTranscriptDownload {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin: 0 0 0 8px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background: #5b5fc7;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#ytTranscriptDownload:hover {
+  background: #4f52b2;
+}
+
+#ytTranscriptDownload:disabled {
+  opacity: 0.55;
+  cursor: progress;
+}
+
+#ytTranscriptDownload svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}

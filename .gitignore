@@ -1,0 +1,11 @@
+# Packed builds (published as GitHub Release assets instead)
+*.zip
+*.crx
+
+# Signing key: never commit
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
